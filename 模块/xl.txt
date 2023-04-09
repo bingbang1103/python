@@ -1,0 +1,2 @@
+2023-04-08 17:M:s - root - CRITICAL 09_loggijng: 今天系统炸了，请程员来调试
+2023-04-08 17:M:s - root - ERROR 09_loggijng: 一般指的是普通的程序错误，俗称bug
