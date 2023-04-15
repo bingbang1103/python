@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<!--默认情况下。form采用的是get提交-->
+<!--get提交的特点: 在urT上能够看到请求的所有参数-->
+<!--如果不希望看到这些内。可以考虑更换为post提交方式-->
+<!--    action是服务器地址-->
+    <form action="www.baidu.com"method="post">
+        用户名：<input type="text" name="username"/><br/>
+        密码：<input type="password" name="pwd"/><br/>
+        性别：
+        <input type="radio" name="gender"/>男
+        <input type="radio" name="gender"/>女
+        <br/>
+        爱好：
+        <input type="checkbox" name="hobby"/>篮球
+        <input type="checkbox" name="hobby"/>足球
+        <input type="checkbox" name="hobby"/>铅球
+        <input type="checkbox" name="hobby"/>钢丝球
+        <input type="checkbox" name="hobby"/>羽毛球
+        <br/>
+        地址：
+        <select name="address">
+        <option>北京</option>
+        <option>上海</option>
+        <option>广州</option>
+        </select>
+        <br/>
+        个人说明：
+        <textarea name=""id=""cols="30"rows="10"></textarea>
+        <input type="submit"value="注册">
+    </form>
+
+
+
+</body>
+</html>
